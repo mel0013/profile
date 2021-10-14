@@ -1,0 +1,84 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+body {
+  color: #6e7572;
+  background-color: #fcf8f8;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1, h3 {
+  color: #497765;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+}
+
+.social-icon {
+  color: #EBB8A4;
+  font-size: 32px;
+  margin: 8px 16px;
+}
+
+.social-icon:hover {
+  color: #e08d6c;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(72, 134, 1, 0.1);
+}
+
+.card-white {
+  background: white;
+  padding: 24px;
+  border-radius: 4px;
+  margin: 24px auto;
+  width: 480px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.btn-orange {
+  color: #EBB8A4;
+  border: 2px solid;
+  border-color:  #EBB8A4;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-orange:hover {
+  background-color: #EBB8A4;
+  color: white;
+}
+
+@media (max-width: 920px) {
+  .container .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container .card-white {
+    width: 300px;
+  }
+}
